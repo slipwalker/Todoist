@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="2" parallel="tests" thread-count="${thread.count}">
+
+    <test name="General Creation Flow Tests">
+        <classes>
+            <class name="com.todoist.tests.GeneralCreationFlowTests"/>
+        </classes>
+    </test>
+</suite>
